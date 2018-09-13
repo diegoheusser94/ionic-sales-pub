@@ -1,0 +1,7 @@
+{
+  "name": "ionic-sales-pub",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

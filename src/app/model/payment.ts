@@ -13,19 +13,39 @@ export class Payment {
         return this._id;
     }
 
+    set id(id: number) {
+        this._id = id;
+    }
+
     get toReceive(): number {
         return this._toReceive;
+    }
+
+    set toReceive(toReceive: number) {
+        this._toReceive = toReceive;
     }
 
     get received(): number {
         return this._received;
     }
 
+    set received(received: number) {
+        this._received = received;
+    }
+
     get client(): Client {
         return this._client;
     }
 
+    set client(client: Client) {
+        this._client = client;
+    }
+
     get sale(): Sale {
         return this._sale;
+    }
+
+    set sale(sale: Sale) {
+        this._sale = sale;
     }
 }

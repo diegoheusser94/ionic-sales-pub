@@ -3,10 +3,15 @@ import { Sale } from './sale';
 
 export class Item {
 
+    private _id: number;
     private _quantity: number;
     private _price: number;
     private _product: Product;
     private _sale: Sale;
+
+    get id(): number {
+        return this._id;
+    }
 
     get quantity(): number {
         return this._quantity;
